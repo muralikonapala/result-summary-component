@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'HankenGrotesk-VariableFont_wght';
+    src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+p{
+    margin: 0;
+}
+h3{
+    padding-bottom: 20px;
+}
+body{
+    font-family: 'HankenGrotesk-VariableFont_wght';
+    background-color: hsl(0, 0%, 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.result-summary{
+    max-width: 580px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 12px 12px 20px rgb(147, 184, 240);
+    border-radius: 20px;
+}
+.result{
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(hsla(255, 70%, 47%),rgb(12, 14, 170));
+    padding: 15px 40px;
+    align-items: center;
+}
+.result p{
+    font-size: 14px;
+}
+.result-radius{
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    background-image: linear-gradient(hsla(255, 70%, 47%), rgb(12, 14, 170));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.summary{
+    max-width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    font-weight: bold;
+}
+.summary-topics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.text-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+#red{
+    background-color: hsl(0, 45%, 90%);
+    color: hsl(0, 100%, 67%);
+}
+#yellow{
+    background-color: hsl(38, 67%, 93%);
+    color: hsl(39, 100%, 56%);
+}
+#violet{
+    background-color: hsl(234, 61%, 90%);
+    color: hsl(234, 85%, 45%);
+}
+#green{
+    background-color: hsl(167, 46%, 86%);
+    color: hsl(166, 100%, 37%);
+}
+button{
+    border-radius: 50px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color:hsl(224, 30%, 27%);
+    width: 230px;
+    padding: 15px;
+    margin-top: 20px;
+}
+button:hover{
+    background-image: linear-gradient(hsla(255, 70%, 47%), rgb(12, 14, 170));
+    cursor: pointer;
+}
